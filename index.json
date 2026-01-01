@@ -1,0 +1,21 @@
+{
+  "registry": "codex-skills-registry",
+  "version": "1.0.0",
+  "updatedAt": "2025-01-01T12:00:00Z",
+  "skills": [
+    {
+      "name": "codex-theme",
+      "description": "Install, apply, and export curated shadcn/ui themes.",
+      "author": "Codex Theme",
+      "tags": ["theme", "shadcn", "tailwind", "nextjs"],
+      "latest": "0.1.0-alpha.0",
+      "compatibility": ["static-html", "nextjs-shadcn", "tailwind"],
+      "artifact": {
+        "url": "artifacts/codex-theme/0.1.0-alpha.0.skill",
+        "sha256": "4d480405453c50ee995d2de68582ddd47499c90116babb059c634c9143e800c4",
+        "entry": "codex-theme/SKILL.md"
+      },
+      "manifest": "skills/codex-theme/manifest.json"
+    }
+  ]
+}
