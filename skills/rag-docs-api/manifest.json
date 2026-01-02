@@ -1,6 +1,6 @@
 {
   "name": "rag-docs-api",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.1-alpha.0",
   "description": "Query a remote RAG HTTP API for doc answers with citations.",
   "author": "Codex Skills",
   "entry": "rag-docs-api/SKILL.md",
@@ -12,6 +12,15 @@
     "notes": "Unzip the .skill into $CODEX_HOME/skills and restart Codex."
   },
   "versions": [
+    {
+      "version": "0.1.1-alpha.0",
+      "releasedAt": "2026-01-02T12:30:00Z",
+      "artifact": {
+        "url": "artifacts/rag-docs-api/0.1.1-alpha.0.skill",
+        "sha256": "9787445d934d9a9a61c74c999313bdd08c0a0ae6e3b52f2813a24134fcfa5911",
+        "entry": "rag-docs-api/SKILL.md"
+      }
+    },
     {
       "version": "0.1.0-alpha.0",
       "releasedAt": "2026-01-02T12:00:00Z",
