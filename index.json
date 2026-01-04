@@ -1,32 +1,75 @@
 {
   "registry": "codex-skills-registry",
   "version": "1.0.0",
-  "updatedAt": "2026-01-02T12:30:00Z",
+  "updatedAt": "2026-01-04T11:22:23Z",
   "skills": [
     {
       "name": "codex-theme",
-      "description": "Install, apply, and export curated shadcn/ui themes.",
+      "description": "Install, generate, and apply frontend themes with @codex-theme packages. Use when a user asks to install a theme, generate a theme from a palette, configure Tailwind and shadcn/ui tokens, export CSS variables, or produce diffs and checklists for theme changes (priority: Next.js app router + React + Tailwind + shadcn/ui; phase 2: Vite React, Astro, Vue/Nuxt).",
       "author": "Codex Theme",
-      "tags": ["theme", "shadcn", "tailwind", "nextjs"],
-      "latest": "0.1.0-alpha.0",
-      "compatibility": ["static-html", "nextjs-shadcn", "tailwind"],
+      "tags": [
+        "theme",
+        "shadcn",
+        "tailwind",
+        "nextjs"
+      ],
+      "latest": "0.1.1-alpha.0",
+      "compatibility": [
+        "static-html",
+        "nextjs-shadcn",
+        "tailwind"
+      ],
       "artifact": {
-        "url": "artifacts/codex-theme/0.1.0-alpha.0.skill",
-        "sha256": "4d480405453c50ee995d2de68582ddd47499c90116babb059c634c9143e800c4",
+        "url": "artifacts/codex-theme/0.1.1-alpha.0.skill",
+        "sha256": "3d3809fed24f6b9d46af11fdf0ef5294fa9589c2d3878123068886f8291a7f75",
         "entry": "codex-theme/SKILL.md"
       },
       "manifest": "skills/codex-theme/manifest.json"
     },
     {
-      "name": "rag-docs-api",
-      "description": "Query a remote RAG HTTP API for doc answers with citations.",
+      "name": "polymarket-sentinel",
+      "description": "Read-only Polymarket analyst skill for scanning markets, pricing orderbooks, alerts, and reporting.",
       "author": "Codex Skills",
-      "tags": ["rag", "docs", "api", "citations"],
-      "latest": "0.1.1-alpha.0",
-      "compatibility": ["rag-api", "docs"],
+      "tags": [
+        "polymarket",
+        "prediction-markets",
+        "alerts",
+        "pricing",
+        "reporting"
+      ],
+      "latest": "0.1.0-alpha.0",
+      "compatibility": [
+        "llmbasedos",
+        "marketdata",
+        "prediction-markets"
+      ],
       "artifact": {
-        "url": "artifacts/rag-docs-api/0.1.1-alpha.0.skill",
-        "sha256": "9787445d934d9a9a61c74c999313bdd08c0a0ae6e3b52f2813a24134fcfa5911",
+        "url": "artifacts/polymarket-sentinel/0.1.0-alpha.0.skill",
+        "sha256": "7cb11880ef81eed66ccf6a4263bf3109c4c2e6ea03fea89738916c00455a542d",
+        "entry": "polymarket-sentinel/SKILL.md"
+      },
+      "manifest": "skills/polymarket-sentinel/manifest.json"
+    },
+    {
+      "name": "rag-docs-api",
+      "description": "Query or ingest docs for a RunMesh RAG HTTP API. Use when Codex must call /api/ask or /api/status, integrate a docs RAG service, or crawl docs with Playwright to build chunks for a deployed RAG backend.",
+      "author": "Codex Skills",
+      "tags": [
+        "rag",
+        "docs",
+        "api",
+        "citations",
+        "ingest",
+        "playwright"
+      ],
+      "latest": "0.1.2-alpha.0",
+      "compatibility": [
+        "rag-api",
+        "docs"
+      ],
+      "artifact": {
+        "url": "artifacts/rag-docs-api/0.1.2-alpha.0.skill",
+        "sha256": "b1c85d1098f3b62a589eff97a5395b8aa252f6b8bb70e5004586a0a63200dd98",
         "entry": "rag-docs-api/SKILL.md"
       },
       "manifest": "skills/rag-docs-api/manifest.json"

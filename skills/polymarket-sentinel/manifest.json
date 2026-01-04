@@ -1,0 +1,25 @@
+{
+  "name": "polymarket-sentinel",
+  "version": "0.1.0-alpha.0",
+  "description": "Read-only Polymarket analyst skill for scanning markets, pricing orderbooks, alerts, and reporting.",
+  "author": "Codex Skills",
+  "entry": "polymarket-sentinel/SKILL.md",
+  "tags": ["polymarket", "prediction-markets", "alerts", "pricing", "reporting"],
+  "compatibility": ["llmbasedos", "marketdata", "prediction-markets"],
+  "install": {
+    "type": "zip",
+    "destination": "/skills/polymarket-sentinel",
+    "notes": "Unzip the .skill into /skills and restart Codex."
+  },
+  "versions": [
+    {
+      "version": "0.1.0-alpha.0",
+      "releasedAt": "2026-01-02T13:21:44Z",
+      "artifact": {
+        "url": "artifacts/polymarket-sentinel/0.1.0-alpha.0.skill",
+        "sha256": "7cb11880ef81eed66ccf6a4263bf3109c4c2e6ea03fea89738916c00455a542d",
+        "entry": "polymarket-sentinel/SKILL.md"
+      }
+    }
+  ]
+}

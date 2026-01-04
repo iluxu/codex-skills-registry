@@ -1,17 +1,36 @@
 {
   "name": "rag-docs-api",
-  "version": "0.1.1-alpha.0",
-  "description": "Query a remote RAG HTTP API for doc answers with citations.",
+  "version": "0.1.2-alpha.0",
+  "description": "Query or ingest docs for a RunMesh RAG HTTP API. Use when Codex must call /api/ask or /api/status, integrate a docs RAG service, or crawl docs with Playwright to build chunks for a deployed RAG backend.",
   "author": "Codex Skills",
   "entry": "rag-docs-api/SKILL.md",
-  "tags": ["rag", "docs", "api", "citations"],
-  "compatibility": ["rag-api", "docs"],
+  "tags": [
+    "rag",
+    "docs",
+    "api",
+    "citations",
+    "ingest",
+    "playwright"
+  ],
+  "compatibility": [
+    "rag-api",
+    "docs"
+  ],
   "install": {
     "type": "zip",
     "destination": "$CODEX_HOME/skills/rag-docs-api",
     "notes": "Unzip the .skill into $CODEX_HOME/skills and restart Codex."
   },
   "versions": [
+    {
+      "version": "0.1.2-alpha.0",
+      "releasedAt": "2026-01-04T11:22:23Z",
+      "artifact": {
+        "url": "artifacts/rag-docs-api/0.1.2-alpha.0.skill",
+        "sha256": "b1c85d1098f3b62a589eff97a5395b8aa252f6b8bb70e5004586a0a63200dd98",
+        "entry": "rag-docs-api/SKILL.md"
+      }
+    },
     {
       "version": "0.1.1-alpha.0",
       "releasedAt": "2026-01-02T12:30:00Z",

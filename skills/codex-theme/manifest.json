@@ -1,17 +1,35 @@
 {
   "name": "codex-theme",
-  "version": "0.1.0-alpha.0",
-  "description": "Install, apply, and export curated shadcn/ui themes.",
+  "version": "0.1.1-alpha.0",
+  "description": "Install, generate, and apply frontend themes with @codex-theme packages. Use when a user asks to install a theme, generate a theme from a palette, configure Tailwind and shadcn/ui tokens, export CSS variables, or produce diffs and checklists for theme changes (priority: Next.js app router + React + Tailwind + shadcn/ui; phase 2: Vite React, Astro, Vue/Nuxt).",
   "author": "Codex Theme",
   "entry": "codex-theme/SKILL.md",
-  "tags": ["theme", "shadcn", "tailwind", "nextjs"],
-  "compatibility": ["static-html", "nextjs-shadcn", "tailwind"],
+  "tags": [
+    "theme",
+    "shadcn",
+    "tailwind",
+    "nextjs"
+  ],
+  "compatibility": [
+    "static-html",
+    "nextjs-shadcn",
+    "tailwind"
+  ],
   "install": {
     "type": "zip",
     "destination": "$CODEX_HOME/skills/codex-theme",
     "notes": "Unzip the .skill into $CODEX_HOME/skills and restart Codex."
   },
   "versions": [
+    {
+      "version": "0.1.1-alpha.0",
+      "releasedAt": "2026-01-04T11:22:23Z",
+      "artifact": {
+        "url": "artifacts/codex-theme/0.1.1-alpha.0.skill",
+        "sha256": "3d3809fed24f6b9d46af11fdf0ef5294fa9589c2d3878123068886f8291a7f75",
+        "entry": "codex-theme/SKILL.md"
+      }
+    },
     {
       "version": "0.1.0-alpha.0",
       "releasedAt": "2025-01-01T12:00:00Z",
