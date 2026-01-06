@@ -1,11 +1,11 @@
 {
   "registry": "codex-skills-registry",
   "version": "1.0.0",
-  "updatedAt": "2026-01-04T11:22:23Z",
+  "updatedAt": "2026-01-06T03:11:25Z",
   "skills": [
     {
       "name": "codex-theme",
-      "description": "Install, generate, and apply frontend themes with @codex-theme packages. Use when a user asks to install a theme, generate a theme from a palette, configure Tailwind and shadcn/ui tokens, export CSS variables, or produce diffs and checklists for theme changes (priority: Next.js app router + React + Tailwind + shadcn/ui; phase 2: Vite React, Astro, Vue/Nuxt).",
+      "description": "Apply themes to Tailwind + shadcn/ui projects. Use when user asks to install a theme, change colors, apply a palette, or configure dark mode.",
       "author": "Codex Theme",
       "tags": [
         "theme",
@@ -73,6 +73,29 @@
         "entry": "rag-docs-api/SKILL.md"
       },
       "manifest": "skills/rag-docs-api/manifest.json"
+    },
+    {
+      "name": "llmbasedos",
+      "description": "Orchestrate llmbasedos Sentinels and MCP arcs for live + historical agents.",
+      "author": "Codex Skills",
+      "tags": [
+        "agents",
+        "mcp",
+        "orchestration",
+        "polymarket",
+        "rag"
+      ],
+      "latest": "0.1.0-alpha.0",
+      "compatibility": [
+        "agent",
+        "mcp"
+      ],
+      "artifact": {
+        "url": "artifacts/llmbasedos/0.1.0-alpha.0.skill",
+        "sha256": "b8551933010f91c46fbcfe1466f378094dc8296d941cfb2a6fb467d9e850b13f",
+        "entry": "llmbasedos/SKILL.md"
+      },
+      "manifest": "skills/llmbasedos/manifest.json"
     }
   ]
 }

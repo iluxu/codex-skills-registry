@@ -1,0 +1,34 @@
+{
+  "name": "llmbasedos",
+  "version": "0.1.0-alpha.0",
+  "description": "Operate the llmbasedos runtime as an orchestration layer for MCP arcs. Use to connect live + historical data agents, score edges, trigger alerts, and route results back to Codex or Claude.",
+  "author": "Codex Skills",
+  "entry": "llmbasedos/SKILL.md",
+  "tags": [
+    "agents",
+    "mcp",
+    "orchestration",
+    "polymarket",
+    "rag"
+  ],
+  "compatibility": [
+    "agent",
+    "mcp"
+  ],
+  "install": {
+    "type": "zip",
+    "destination": "$CODEX_HOME/skills/llmbasedos",
+    "notes": "Unzip the .skill into $CODEX_HOME/skills, configure llmbasedos, and restart Codex."
+  },
+  "versions": [
+    {
+      "version": "0.1.0-alpha.0",
+      "releasedAt": "2026-01-05T15:00:00Z",
+      "artifact": {
+        "url": "artifacts/llmbasedos/0.1.0-alpha.0.skill",
+        "sha256": "b8551933010f91c46fbcfe1466f378094dc8296d941cfb2a6fb467d9e850b13f",
+        "entry": "llmbasedos/SKILL.md"
+      }
+    }
+  ]
+}
