@@ -1,7 +1,7 @@
 {
   "registry": "codex-skills-registry",
   "version": "1.0.0",
-  "updatedAt": "2026-01-06T07:11:00Z",
+  "updatedAt": "2026-01-06T11:05:00Z",
   "skills": [
     {
       "name": "codex-theme",
@@ -13,7 +13,7 @@
         "tailwind",
         "nextjs"
       ],
-      "latest": "0.1.1-alpha.0",
+      "latest": "0.1.2-alpha.0",
       "compatibility": [
         "static-html",
         "nextjs-shadcn",
@@ -91,7 +91,7 @@
         "mcp"
       ],
       "artifact": {
-        "url": "artifacts/llmbasedos/0.1.1-alpha.0.skill",
+        "url": "artifacts/llmbasedos/0.1.2-alpha.0.skill",
         "sha256": "b8551933010f91c46fbcfe1466f378094dc8296d941cfb2a6fb467d9e850b13f",
         "entry": "llmbasedos/SKILL.md"
       },
