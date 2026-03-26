@@ -1,7 +1,7 @@
 {
   "registry": "codex-skills-registry",
   "version": "1.0.0",
-  "updatedAt": "2026-03-26T18:30:00Z",
+  "updatedAt": "2026-03-26T23:30:00Z",
   "skills": [
     {
       "name": "codex-theme",
@@ -99,7 +99,7 @@
     },
     {
       "name": "eui-migration-global",
-      "description": "Global Codex skill for Angular migrations to eUI/ECL 21 with documentation_eui.json-first lookups, verified EUI utility checks, agentic/MCP-ready guidance, and an explicit fetch script for the live upstream JSON corpus.",
+      "description": "Global Codex skill for Angular migrations to eUI 21 with documentation.json-first lookups, explicit source priority, verified eUI utility checks, and cross-platform fetch scripts for the live upstream JSON corpus.",
       "author": "Codex Skills",
       "tags": [
         "eui",
@@ -110,15 +110,15 @@
         "mcp",
         "documentation_eui"
       ],
-      "latest": "0.1.1-alpha.0",
+      "latest": "0.1.2-alpha.0",
       "compatibility": [
         "angular",
         "eui",
         "mcp"
       ],
       "artifact": {
-        "url": "artifacts/eui-migration-global/0.1.1-alpha.0.skill",
-        "sha256": "3b9876a16c64178bf0b7070787bca67463ff4a8520ad9ce55338aec238e07183",
+        "url": "artifacts/eui-migration-global/0.1.2-alpha.0.skill",
+        "sha256": "f4e13b2b3b9afa6328a12b1ef8c81cf9a9abf1715643f42be8ffd33e4da1e0c4",
         "entry": "eui-migration-global/SKILL.md"
       },
       "manifest": "skills/eui-migration-global/manifest.json"
