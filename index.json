@@ -118,7 +118,7 @@
       ],
       "artifact": {
         "url": "artifacts/eui-migration-global/0.1.0-alpha.0.skill",
-        "sha256": "ce7196f438aa43bba5f94081c234a9fd90a30bb64293bb63a11f46d1af9a3e50",
+        "sha256": "521f3622409f54ff5f008b25be5fb255ec65259831772bdeaa6f981910ef6434",
         "entry": "eui-migration-global/SKILL.md"
       },
       "manifest": "skills/eui-migration-global/manifest.json"
